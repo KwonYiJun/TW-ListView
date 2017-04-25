@@ -1,5 +1,6 @@
 package twlistview.android.myapplicationdev.com.tw_listview;
 
+import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        lv = (ListView)findViewById(R. id. lvCourse);
+        lv = (ListView)findViewById(R. id. lvYear);
         tv = (TextView)findViewById(R. id. textView);
 
         al = new ArrayList<String>();
